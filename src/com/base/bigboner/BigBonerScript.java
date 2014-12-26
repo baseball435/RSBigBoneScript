@@ -22,7 +22,7 @@ import com.base.bigboner.task.tasks.InvCheck;
 import com.base.bigboner.task.tasks.PickupManager;
 import com.base.bigboner.task.tasks.WalkingTask;
 
-@Script.Manifest(name="BigBoner", description="Picks up and buries or banks bones.")
+@Script.Manifest(name="Base's Big Boner", description="Picks up and buries or banks bones.", properties="topic=1237442")
 public class BigBonerScript extends PollingScript<ClientContext> implements PaintListener  {
 	
 	/** The different colors and fonts used in the GUI */
